@@ -77,4 +77,6 @@ dependencies {
     implementation(libs.play.services.code.scanner)
     implementation(libs.mlkit.barcode.scanning)
     implementation(libs.kotlinx.coroutines.play.services)
+    testImplementation(libs.junit)
+    testImplementation(libs.okhttp.mockwebserver)
 }
